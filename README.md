@@ -1,9 +1,11 @@
-# UR5-Welding-Robot-using-ROS
+# 🛠️ UR5 Welding Robot with AR Tag-Guided Path Teaching using ROS
+
+## 📷 Project Visuals and Demo Video
 ![image](https://github.com/user-attachments/assets/f2008ef0-8b00-4369-8f41-4364e904d218)
 [▶️ Watch DEMO VIDEO on Google Drive](https://drive.google.com/file/d/17izh-64l6Ymf9zjNBsFVXGm6YPSrMRkZ/view?usp=drive_link)
 
 
-# 🛠️ UR5 Welding Robot with AR Tag-Guided Path Teaching using ROS
+
 
 [![ROS Noetic](https://img.shields.io/badge/ROS-Noetic-blue)](http://wiki.ros.org/noetic) 
 [![MoveIt](https://img.shields.io/badge/MoveIt-Ros_Planning-orange)](https://moveit.ros.org/)
@@ -53,27 +55,11 @@ This project develops a **ROS Noetic** based welding application for the **Unive
 
 ---
 
-## 📷 Project Visuals
 
-### AR Tag Setup & Robot in RViz
 
-![AR Tag Setup](images/ar_tag_setup.jpg)
-
-*Figure 1: AR Tag detection using camera feed*
-
-![Robot Path Visualization](images/robot_rviz_demo.png)
-
-*Figure 2: Trajectory planning and execution visualization in RViz*
 
 ---
 
-## ▶️ Demo Video
-
-[![Watch Demo](images/youtube_thumbnail.png)](https://youtu.be/YOUR_VIDEO_LINK_HERE)
-
-*Click the image or [here](https://youtu.be/YOUR_VIDEO_LINK_HERE) to watch the demo video.*
-
----
 ## 🤝 Acknowledgements
 Developed as part of the IGMR ROS Project, RWTH Aachen University.
 
