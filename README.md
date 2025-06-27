@@ -1,18 +1,24 @@
-# 🛠️ UR5 Welding Robot with AR Tag-Guided Path Teaching using ROS
+# 🤖 UR5 Welding Robot with AR Tag-Guided Path Teaching using ROS
+A ROS Noetic-based robotic application enabling AR tag-based path teaching and automated welding trajectory execution on a UR5 robotic arm using MoveIt. Includes camera-based vision, TF2 transformations, and safety mechanisms for real/simulated deployment.
+
+
+[![ROS Noetic](https://img.shields.io/badge/ROS-Noetic-blue)](http://wiki.ros.org/noetic) 
+[![MoveIt](https://img.shields.io/badge/MoveIt-Ros_Planning-orange)](https://moveit.ros.org/)
+[![Ubuntu](https://img.shields.io/badge/Ubuntu-20.04-green)](https://ubuntu.com/)
+
 
 ## 📷 Project Visuals and Demo Video
 ![image](https://github.com/user-attachments/assets/f2008ef0-8b00-4369-8f41-4364e904d218)
 
 
 
-[▶️ Watch DEMO VIDEO ON GOOGLE DRIVE](https://drive.google.com/file/d/17izh-64l6Ymf9zjNBsFVXGm6YPSrMRkZ/view?usp=drive_link)
+
 
 ![rviz](https://github.com/user-attachments/assets/09a30344-c024-4e6a-a9d7-dd4586c332b9)
 
 
-[![ROS Noetic](https://img.shields.io/badge/ROS-Noetic-blue)](http://wiki.ros.org/noetic) 
-[![MoveIt](https://img.shields.io/badge/MoveIt-Ros_Planning-orange)](https://moveit.ros.org/)
-[![Ubuntu](https://img.shields.io/badge/Ubuntu-20.04-green)](https://ubuntu.com/)
+## 🎥 Demo Video
+[▶️ WATCH DEMO VIDEO ON GOOGLE DRIVE](https://drive.google.com/file/d/17izh-64l6Ymf9zjNBsFVXGm6YPSrMRkZ/view?usp=drive_link)
 
 ---
 
