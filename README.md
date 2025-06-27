@@ -71,3 +71,16 @@ This project develops a **ROS Noetic** based welding application for the **Unive
 *Click the image or [here](https://youtu.be/YOUR_VIDEO_LINK_HERE) to watch the demo video.*
 
 ---
+## 🤝 Acknowledgements
+Developed as part of the IGMR ROS Project, RWTH Aachen University.
+
+## ⚠️ Safety Notes
+Always verify planned paths in RViz before execution.
+
+Maintain emergency stop button accessibility.
+
+Lower velocity and acceleration parameters when starting with real hardware.
+
+Keep workspace clear to avoid collisions.
+
+
