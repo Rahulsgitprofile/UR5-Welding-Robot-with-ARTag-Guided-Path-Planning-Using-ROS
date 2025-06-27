@@ -1,0 +1,9 @@
+<launch>
+
+    <node pkg="rviz" type="rviz" name="rviz" args="-d $(find tf2_basics)/config/basic-tf.rviz"/>
+
+    <node pkg="tf" type="static_transform_publisher" name="my_static_transform_pub" 
+        args="0.2 0.3 0.4 0 0 0 map base_link 10">
+    </node>
+
+</launch>

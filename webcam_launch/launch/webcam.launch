@@ -1,0 +1,17 @@
+<launch>
+    
+    <!-- Declare arguments. The values can be changed/ set in terminal with roslaunch -->
+    <arg name="my_arg_1" default="test" doc="Description of what this thing is doing."/>
+
+    
+    <!-- Starting usb_cam node with parameters as defined between the node tags-->
+    <node pkg="usb_cam" type="usb_cam_node" name="my_node_name" output="screen">
+        <param name="standard_parameter" type="string" value="another_val" />
+        <param name="parameter_from_launch_argument" type="string" value="$(arg my_arg_1)" />
+        <param name="file_parameter" type="string" value="file://$(find a_package_with_a_file)/some_folder/some_file.txt" />
+    </node>
+
+    <!-- Starting rviz -->
+    <node pkg="rviz" name="rviz" type="rviz" args="-d $(find my_package_name)/some_folder/some_config_file.pdf/">
+
+</launch>

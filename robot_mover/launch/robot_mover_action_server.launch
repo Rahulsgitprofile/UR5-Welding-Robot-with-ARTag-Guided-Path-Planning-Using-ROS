@@ -1,0 +1,18 @@
+<launch>
+	<arg name="sim" default="true" doc="Launches fake controllers. Use false to start/ connect to real robot." />
+	
+        <include file="$(find camera)/launch/webcam_launch.launch" />
+        
+        <include file="$(find ar_track_alvar)/launch/artag_track.launch" />
+        
+        <include file="$(find robot_launcher)/launch/launch_robot.launch" >
+        	<arg name="sim" value="$(arg sim)" />
+        </include>        
+
+	<node name="obstacle_node" pkg="robot_environment" type="configure_robot_env.py" output="screen" /> 
+	
+	<node name="robot_mover_action_server" pkg="robot_mover" type="robot_mover_action_server.py" output="screen" />
+	
+	<node name="robot_mover_action_client" pkg="robot_mover" type="robot_mover_action_client.py" output="screen" />
+</launch>
+

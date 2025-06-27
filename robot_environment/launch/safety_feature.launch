@@ -1,0 +1,20 @@
+<launch>
+	<arg name="sim" default="true" doc="Launches fake controllers. Use false to start/ connect to real robot." />
+	
+        <include file="$(find camera)/launch/webcam_launch.launch" />
+        
+        <include file="$(find ar_track_alvar)/launch/artag_track.launch" />
+        
+        <include file="$(find robot_launcher)/launch/launch_robot.launch" >
+        	<arg name="sim" value="$(arg sim)" />
+        </include>   
+
+	<node name="obstacle_node" pkg="robot_environment" type="configure_robot_env.py" output="screen" />
+	
+	<node pkg="tf" type="static_transform_publisher" name="tool_nozzle_static_transform" output="screen" args="0.016 0 0.098 0 0.540 0 tool0 nozzle_link 30"/>
+	
+	<node pkg="tf" type="static_transform_publisher" name="static_transform_tracker" output="screen" args="0 0 0 0 0 3.14  ar_marker_13 ar_marker_13a 30"/>
+	
+	<node pkg="tf" type="static_transform_publisher" name="tcpgoal_marker_static_transform" output="screen" args="0.016 0 -0.098 0 -0.54 0 ar_marker_13a tcp_goal 30"/>
+	
+</launch>

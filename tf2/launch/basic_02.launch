@@ -1,0 +1,13 @@
+<launch>
+
+    <node pkg="rviz" type="rviz" name="rviz" args="-d $(find tf2_basics)/config/basic-tf.rviz"/>
+
+    <node pkg="tf" type="static_transform_publisher" name="my_first_static_transform_pub" 
+        args="0.2 0.3 0.4 0 0 0 map base_link 10">
+    </node>
+
+    <node pkg="tf" type="static_transform_publisher" name="my_second_static_transform_pub" 
+        args="-0.5 0.4 -0.5 0 0 3.1415 base_link my_new_frame 10">
+    </node>
+
+</launch>
