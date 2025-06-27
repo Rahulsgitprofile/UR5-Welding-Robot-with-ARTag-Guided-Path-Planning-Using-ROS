@@ -2,9 +2,12 @@
 
 ## 📷 Project Visuals and Demo Video
 ![image](https://github.com/user-attachments/assets/f2008ef0-8b00-4369-8f41-4364e904d218)
-[▶️ Watch DEMO VIDEO on Google Drive](https://drive.google.com/file/d/17izh-64l6Ymf9zjNBsFVXGm6YPSrMRkZ/view?usp=drive_link)
 
 
+
+[▶️ Watch DEMO VIDEO ON GOOGLE DRIVE](https://drive.google.com/file/d/17izh-64l6Ymf9zjNBsFVXGm6YPSrMRkZ/view?usp=drive_link)
+
+![rviz](https://github.com/user-attachments/assets/09a30344-c024-4e6a-a9d7-dd4586c332b9)
 
 
 [![ROS Noetic](https://img.shields.io/badge/ROS-Noetic-blue)](http://wiki.ros.org/noetic) 
