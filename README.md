@@ -1,4 +1,5 @@
 # UR5-Welding-Robot-using-ROS
+![image](https://github.com/user-attachments/assets/f2008ef0-8b00-4369-8f41-4364e904d218)
 
 # 🛠️ UR5 Welding Robot with AR Tag-Guided Path Teaching using ROS
 
