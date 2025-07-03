@@ -8,13 +8,19 @@ A ROS Noetic-based robotic application enabling AR tag-based path teaching and a
 
 
 ## 📷 Project Visuals and Demo Video
-![image](https://github.com/user-attachments/assets/f2008ef0-8b00-4369-8f41-4364e904d218)
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/f2008ef0-8b00-4369-8f41-4364e904d218" alt="Gameplay Screenshot 1" width="350" />
+  <img src="https://github.com/user-attachments/assets/0debef6f-2977-4890-a238-954e3f908f81" alt="Robot Movement" width="350" />
+  <img src="https://github.com/user-attachments/assets/09a30344-c024-4e6a-a9d7-dd4586c332b9" alt="RViz" width="550" />
+</p>
 
 
 
 
 
-![rviz](https://github.com/user-attachments/assets/09a30344-c024-4e6a-a9d7-dd4586c332b9)
+
+
 
 
 ## 🎥 Demo Video
