@@ -63,7 +63,7 @@ This project develops a **ROS Noetic** based welding application for the **Unive
 | **MoveIt**      | Motion planning framework for ROS            |
 | **TF2**         | Transform library for coordinate frames      |
 | **AR Track Alvar** | AR Tag tracking package for ROS             |
-| **Universal Robots UR5** | 6-DOF robotic arm used for welding      |
+| **Universal Robots UR5** | 6-DOF robotic arm used for welding     |
 | **RViz**        | 3D visualization tool for ROS                 |
 | **Python & C++**| Nodes and packages implemented in both        |
 | **Ubuntu 20.04**| Operating system environment                   |
